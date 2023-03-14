@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -13,8 +14,8 @@ public class SampleTwoTest {
   @Test(retryAnalyzer = RetrySampleTest.class)
 	  public void cypressSearchTest() {
 		  //System.setProperty("webdriver.chrome.driver","E:\\WebDrivers\\chromedriver.exe");
-	      WebDriverManager.chromedriver().setup();
-	      WebDriver driver = new ChromeDriver();
+	      WebDriverManager.edgedriver().setup();
+	      WebDriver driver = new EdgeDriver();
 	      
 	      //WebDriverManager.edgedriver().setup();
 	      //WebDriver driver = new EdgeDriver();
