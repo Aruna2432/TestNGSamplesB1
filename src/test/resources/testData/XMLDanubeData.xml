@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DanubeData>
+<name>s-name</name>
+<surname>s-surname</surname>
+<address>s-address</address>
+<zip>s-zipcode</zip>
+<city>s-city</city>
+<company>s-company</company>
+<shipment>single</shipment>
+<buy>//button[contains(text(),'Buy')]</buy>
+</DanubeData>
